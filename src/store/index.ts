@@ -1,4 +1,8 @@
-import { legacy_createStore as createStore, combineReducers, applyMiddleware } from 'redux'
+import {
+  legacy_createStore as createStore,
+  combineReducers,
+  applyMiddleware,
+} from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import thunk from 'redux-thunk'
 
@@ -8,12 +12,15 @@ import filmsItemReducer from './FilmsDetail.ts/reducer'
 import filmsSerchReducer from './FilmsMainSearch/reducer'
 
 const rootReducer = combineReducers({
-   filmsMainReducer,
-   filmsCategoriesReducer,
-   filmsItemReducer,
-   filmsSerchReducer,
+  filmsMainReducer,
+  filmsCategoriesReducer,
+  filmsItemReducer,
+  filmsSerchReducer,
 })
 
-const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)))
+const store = createStore(
+  rootReducer,
+  composeWithDevTools(applyMiddleware(thunk))
+)
 
 export default store
