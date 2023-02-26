@@ -1,0 +1,9 @@
+.main-block {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 110px;
+   justify-content: space-between;
+   background-color: #fff;
+   border-radius: 20px;
+   padding: 40px 90px;
+}

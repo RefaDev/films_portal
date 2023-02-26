@@ -1,0 +1,19 @@
+.main {
+}
+.main-info-block {
+   text-align: center;
+   margin: 0px 0px 50px 0px;
+}
+.main-info-block-title {
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 82px;
+   color: #e59c9c;
+   margin: 0px 0px 5px 0px;
+}
+.main-info-block-subtitle {
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 41px;
+   color: #ffffff;
+}

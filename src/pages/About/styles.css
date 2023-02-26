@@ -1,0 +1,24 @@
+.about-content {
+   background-color: #fff;
+   border-radius: 20px;
+   padding: 40px 90px;
+   display: flex;
+   gap: 70px;
+}
+.about-img img {
+   max-width: 386px;
+   max-height: 272px;
+}
+.about-title {
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 41px;
+   color: #333333;
+   margin: 0px 0px 15px 0px;
+}
+.about-text {
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 140%;
+   color: #000000;
+}

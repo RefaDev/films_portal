@@ -1,0 +1,32 @@
+.header {
+   padding: 55px 0px 90px 0px;
+}
+
+.header-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header-logo img {
+   height: 41px;
+   width: 175px;
+}
+
+.header-nav ul {
+   display: flex;
+   gap: 60px;
+   flex-wrap: wrap;
+}
+.linkActive {
+   text-decoration-line: underline;
+   color: #e59c9c;
+}
+
+li a {
+   color: #fff;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 27px;
+}
